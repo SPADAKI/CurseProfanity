@@ -2,7 +2,7 @@ import urllib
 def profanity():
     text=open("/Users/user/Documents/PY/movie_quotes.txt")  
     content = text.read()
-    print(content)
+    #print(content)
     text.close()
     profanity_check(content)
 
